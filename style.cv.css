@@ -1,0 +1,34 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Navbar Customization */
+.navbar-brand {
+    font-weight: bold;
+}
+.navbar-nav .nav-link {
+    color: #555;
+    transition: color 0.3s;
+}
+.navbar-nav .nav-link:hover {
+    color: #007bff;
+}
+
+/* Hero Section Customization */
+.jumbotron {
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.jumbotron h1, .jumbotron p {
+    color: #fff;
+}
+
+/* Footer Customization */
+footer {
+    margin-top: 20px;
+}
